@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80882961989EA7E0042681F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80882951989EA7E0042681F /* Foundation.framework */; };
+		A80882981989EA7E0042681F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80882971989EA7E0042681F /* CoreGraphics.framework */; };
+		A808829A1989EA7E0042681F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80882991989EA7E0042681F /* UIKit.framework */; };
+		A80882A01989EA7E0042681F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A808829E1989EA7E0042681F /* InfoPlist.strings */; };
+		A80882A21989EA7E0042681F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80882A11989EA7E0042681F /* main.m */; };
+		A80882A61989EA7E0042681F /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80882A51989EA7E0042681F /* BIDAppDelegate.m */; };
+		A80882A81989EA7E0042681F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80882A71989EA7E0042681F /* Images.xcassets */; };
+		A80882AF1989EA7F0042681F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80882AE1989EA7F0042681F /* XCTest.framework */; };
+		A80882B01989EA7F0042681F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80882951989EA7E0042681F /* Foundation.framework */; };
+		A80882B11989EA7F0042681F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80882991989EA7E0042681F /* UIKit.framework */; };
+		A80882B91989EA7F0042681F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A80882B71989EA7F0042681F /* InfoPlist.strings */; };
+		A80882BB1989EA7F0042681F /* QuartzFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80882BA1989EA7F0042681F /* QuartzFunTests.m */; };
+		A80882C71989EA950042681F /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80882C51989EA950042681F /* BIDViewController.m */; };
+		A80882C81989EA950042681F /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80882C61989EA950042681F /* BIDViewController.xib */; };
+		A80882CB1989EC020042681F /* BIDQuartzFunView.m in Sources */ = {isa = PBXBuildFile; fileRef = A80882CA1989EC020042681F /* BIDQuartzFunView.m */; };
+		A80882D01989ED310042681F /* UIColor+BIDRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = A80882CF1989ED310042681F /* UIColor+BIDRandom.m */; };
+		A80882D2198A070D0042681F /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A80882D1198A070D0042681F /* iphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80882B21989EA7F0042681F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A808828A1989EA7E0042681F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80882911989EA7E0042681F;
+			remoteInfo = QuartzFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80882921989EA7E0042681F /* QuartzFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80882951989EA7E0042681F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A80882971989EA7E0042681F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A80882991989EA7E0042681F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A808829D1989EA7E0042681F /* QuartzFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzFun-Info.plist"; sourceTree = "<group>"; };
+		A808829F1989EA7E0042681F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A80882A11989EA7E0042681F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A80882A31989EA7E0042681F /* QuartzFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzFun-Prefix.pch"; sourceTree = "<group>"; };
+		A80882A41989EA7E0042681F /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		A80882A51989EA7E0042681F /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		A80882A71989EA7E0042681F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A80882AD1989EA7F0042681F /* QuartzFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuartzFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80882AE1989EA7F0042681F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A80882B61989EA7F0042681F /* QuartzFunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzFunTests-Info.plist"; sourceTree = "<group>"; };
+		A80882B81989EA7F0042681F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A80882BA1989EA7F0042681F /* QuartzFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzFunTests.m; sourceTree = "<group>"; };
+		A80882C41989EA950042681F /* BIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		A80882C51989EA950042681F /* BIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		A80882C61989EA950042681F /* BIDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDViewController.xib; sourceTree = "<group>"; };
+		A80882C91989EC020042681F /* BIDQuartzFunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDQuartzFunView.h; sourceTree = "<group>"; };
+		A80882CA1989EC020042681F /* BIDQuartzFunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDQuartzFunView.m; sourceTree = "<group>"; };
+		A80882CD1989ED010042681F /* BIDConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDConstants.h; sourceTree = "<group>"; };
+		A80882CE1989ED310042681F /* UIColor+BIDRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BIDRandom.h"; sourceTree = "<group>"; };
+		A80882CF1989ED310042681F /* UIColor+BIDRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BIDRandom.m"; sourceTree = "<group>"; };
+		A80882D1198A070D0042681F /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.png; path = "../../../../Begin_iOS_5_projects_2011_12_09/16 - QuartzFun/iphone.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A808828F1989EA7E0042681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80882981989EA7E0042681F /* CoreGraphics.framework in Frameworks */,
+				A808829A1989EA7E0042681F /* UIKit.framework in Frameworks */,
+				A80882961989EA7E0042681F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80882AA1989EA7F0042681F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80882AF1989EA7F0042681F /* XCTest.framework in Frameworks */,
+				A80882B11989EA7F0042681F /* UIKit.framework in Frameworks */,
+				A80882B01989EA7F0042681F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80882891989EA7E0042681F = {
+			isa = PBXGroup;
+			children = (
+				A808829B1989EA7E0042681F /* QuartzFun */,
+				A80882B41989EA7F0042681F /* QuartzFunTests */,
+				A80882941989EA7E0042681F /* Frameworks */,
+				A80882931989EA7E0042681F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80882931989EA7E0042681F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80882921989EA7E0042681F /* QuartzFun.app */,
+				A80882AD1989EA7F0042681F /* QuartzFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80882941989EA7E0042681F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80882951989EA7E0042681F /* Foundation.framework */,
+				A80882971989EA7E0042681F /* CoreGraphics.framework */,
+				A80882991989EA7E0042681F /* UIKit.framework */,
+				A80882AE1989EA7F0042681F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A808829B1989EA7E0042681F /* QuartzFun */ = {
+			isa = PBXGroup;
+			children = (
+				A80882A41989EA7E0042681F /* BIDAppDelegate.h */,
+				A80882A51989EA7E0042681F /* BIDAppDelegate.m */,
+				A80882C41989EA950042681F /* BIDViewController.h */,
+				A80882C51989EA950042681F /* BIDViewController.m */,
+				A80882C61989EA950042681F /* BIDViewController.xib */,
+				A80882C91989EC020042681F /* BIDQuartzFunView.h */,
+				A80882CA1989EC020042681F /* BIDQuartzFunView.m */,
+				A80882CD1989ED010042681F /* BIDConstants.h */,
+				A80882CE1989ED310042681F /* UIColor+BIDRandom.h */,
+				A80882CF1989ED310042681F /* UIColor+BIDRandom.m */,
+				A80882A71989EA7E0042681F /* Images.xcassets */,
+				A808829C1989EA7E0042681F /* Supporting Files */,
+			);
+			path = QuartzFun;
+			sourceTree = "<group>";
+		};
+		A808829C1989EA7E0042681F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80882D1198A070D0042681F /* iphone.png */,
+				A808829D1989EA7E0042681F /* QuartzFun-Info.plist */,
+				A808829E1989EA7E0042681F /* InfoPlist.strings */,
+				A80882A11989EA7E0042681F /* main.m */,
+				A80882A31989EA7E0042681F /* QuartzFun-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80882B41989EA7F0042681F /* QuartzFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80882BA1989EA7F0042681F /* QuartzFunTests.m */,
+				A80882B51989EA7F0042681F /* Supporting Files */,
+			);
+			path = QuartzFunTests;
+			sourceTree = "<group>";
+		};
+		A80882B51989EA7F0042681F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80882B61989EA7F0042681F /* QuartzFunTests-Info.plist */,
+				A80882B71989EA7F0042681F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80882911989EA7E0042681F /* QuartzFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80882BE1989EA7F0042681F /* Build configuration list for PBXNativeTarget "QuartzFun" */;
+			buildPhases = (
+				A808828E1989EA7E0042681F /* Sources */,
+				A808828F1989EA7E0042681F /* Frameworks */,
+				A80882901989EA7E0042681F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzFun;
+			productName = QuartzFun;
+			productReference = A80882921989EA7E0042681F /* QuartzFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A80882AC1989EA7F0042681F /* QuartzFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80882C11989EA7F0042681F /* Build configuration list for PBXNativeTarget "QuartzFunTests" */;
+			buildPhases = (
+				A80882A91989EA7F0042681F /* Sources */,
+				A80882AA1989EA7F0042681F /* Frameworks */,
+				A80882AB1989EA7F0042681F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80882B31989EA7F0042681F /* PBXTargetDependency */,
+			);
+			name = QuartzFunTests;
+			productName = QuartzFunTests;
+			productReference = A80882AD1989EA7F0042681F /* QuartzFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A808828A1989EA7E0042681F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					A80882AC1989EA7F0042681F = {
+						TestTargetID = A80882911989EA7E0042681F;
+					};
+				};
+			};
+			buildConfigurationList = A808828D1989EA7E0042681F /* Build configuration list for PBXProject "QuartzFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A80882891989EA7E0042681F;
+			productRefGroup = A80882931989EA7E0042681F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80882911989EA7E0042681F /* QuartzFun */,
+				A80882AC1989EA7F0042681F /* QuartzFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80882901989EA7E0042681F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80882D2198A070D0042681F /* iphone.png in Resources */,
+				A80882C81989EA950042681F /* BIDViewController.xib in Resources */,
+				A80882A01989EA7E0042681F /* InfoPlist.strings in Resources */,
+				A80882A81989EA7E0042681F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80882AB1989EA7F0042681F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80882B91989EA7F0042681F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A808828E1989EA7E0042681F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80882A61989EA7E0042681F /* BIDAppDelegate.m in Sources */,
+				A80882C71989EA950042681F /* BIDViewController.m in Sources */,
+				A80882A21989EA7E0042681F /* main.m in Sources */,
+				A80882CB1989EC020042681F /* BIDQuartzFunView.m in Sources */,
+				A80882D01989ED310042681F /* UIColor+BIDRandom.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80882A91989EA7F0042681F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80882BB1989EA7F0042681F /* QuartzFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80882B31989EA7F0042681F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80882911989EA7E0042681F /* QuartzFun */;
+			targetProxy = A80882B21989EA7F0042681F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A808829E1989EA7E0042681F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A808829F1989EA7E0042681F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A80882B71989EA7F0042681F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80882B81989EA7F0042681F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80882BC1989EA7F0042681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A80882BD1989EA7F0042681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80882BF1989EA7F0042681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
+				INFOPLIST_FILE = "QuartzFun/QuartzFun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A80882C01989EA7F0042681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
+				INFOPLIST_FILE = "QuartzFun/QuartzFun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A80882C21989EA7F0042681F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuartzFun.app/QuartzFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuartzFunTests/QuartzFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A80882C31989EA7F0042681F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuartzFun.app/QuartzFun";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzFun/QuartzFun-Prefix.pch";
+				INFOPLIST_FILE = "QuartzFunTests/QuartzFunTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A808828D1989EA7E0042681F /* Build configuration list for PBXProject "QuartzFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80882BC1989EA7F0042681F /* Debug */,
+				A80882BD1989EA7F0042681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80882BE1989EA7F0042681F /* Build configuration list for PBXNativeTarget "QuartzFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80882BF1989EA7F0042681F /* Debug */,
+				A80882C01989EA7F0042681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A80882C11989EA7F0042681F /* Build configuration list for PBXNativeTarget "QuartzFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80882C21989EA7F0042681F /* Debug */,
+				A80882C31989EA7F0042681F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A808828A1989EA7E0042681F /* Project object */;
+}
